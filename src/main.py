@@ -52,7 +52,7 @@ def mutate(constraint, or_cons):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Test Case Generator')
-    parser.add_argument('--name', help='c program', default='t1.c')
+    parser.add_argument('--name', help='c program name')
     parser.add_argument('--n', type=int, default=10000, help='test case number (default: 10000)')
     parser.add_argument('--r', type=float, default=0.5, help='ratio of positive case (default: 0.5)')
     parser.add_argument('--c', type=int, default=-1, help='thread number (default: number of cores(-1))')

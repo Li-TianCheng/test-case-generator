@@ -140,12 +140,14 @@ a == 3;
 
 运行参数：
 
---name // c program  
+--name // c program name
 
 --n // test case number (default: 10000)  
 
 --r // ratio of positive case (default: 0.5)  
 
 --c // thread number (default: number of cores(-1))
+
+生成完成，需要验证时，运行 python ./src/validate_cases.py
 
 
